@@ -2,7 +2,8 @@ import axios from "axios";
 
 // Create base URL API
 export const API = axios.create({
-  baseURL: "https://journey-app27.herokuapp.com//api/v1",
+  baseURL: "https://journey-app27.herokuapp.com//api/v1" ||
+  'https://localhost:5000/api/v1',
 });
 
 // Set Authorization Token Header
